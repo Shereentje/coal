@@ -1,0 +1,173 @@
+body {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(images/logoname.jpg);
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  text-align: left;
+
+}
+
+header nav {
+  width: 100%;
+  background-position: center;
+  margin-top: 0;
+  padding: 3em;
+  margin-bottom: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* dubbele header moet samen voegen of er 1 vanaf */
+
+/* toe doe: 
+- padding and margin bekijken  */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline;
+  color: rgb(91, 20, 91);
+  font-weight: bold;
+}
+
+/* soort van UL erin moet gekeken naar worden */
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  box-sizing: border-box;
+  color: rgb(14, 85, 40);
+}
+
+
+
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  color: black;
+  padding: 20px;
+
+}
+
+/* dubbele p moet samen voegen of er 1 vanaf */
+p {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+}
+
+p {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 1em;
+  padding: 1em;
+  color: rgb(0, 0, 0);
+}
+
+/* nog deze dingen hieronder goed aanpassen */
+
+h1 {
+  color: rgb(14, 85, 40);
+  font-size: 30px;
+  margin: 10;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+h2 {
+  color: rgb(108, 44, 44);
+  font-size: 20px;
+  margin: 10;
+  text-align: left;
+  padding-top: 2em;
+  padding-left: 2em;
+}
+
+h3 {
+  color: rgb(91, 20, 91);
+  font-size: 20px;
+  margin: 10;
+  text-align: left;
+  padding-top: 2em;
+}
+
+h4 {
+  color: rgb(37, 26, 135);
+  font-size: 15px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 2em;
+
+}
+
+
+h5 {
+  /* nog goede grote doen voor bij de articles met de afbeeldingen erbij doen bij map concerts*/
+  color: #2d0d0d;
+}
+
+img {
+  /* Width and heigts passen de afbeeldingen ook aan die te groot ervoor zijn, hoe aanpassen? bepaalde afbeeldingen onder een andere code plaatsen?*/
+  width: 160px;
+  height: 150px;
+  padding: 15px 25px;
+  margin: 10px 15px;
+  background-position: center;
+
+}
+
+footer {
+  background-color: #23740d;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  line-height: 0.5;
+  width: 100%;
+  bottom: 0;/* Zet de footer onderaan de pagina */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  position: relative; /* Stelt de footer in als relatief t.o.v. zijn normale positie */
+  bottom: 0; /* Zet de footer onderaan de pagina */
+  margin-top: 20px; /* Voeg ruimte boven de footer toe */
+  padding: 20px; /* Binnenruimte van de footer */
+}
+
+
+
+
+/* Container stijl */
+.container {
+  max-width: 800px;
+  /* Maximale breedte van de container */
+  margin: 1em;
+  /* Centreert de container */
+  background: rgb(77, 128, 78);
+  /* Witte achtergrond */
+  padding: 2em;
+  /* Ruimte binnenin de container */
+  border-radius: 2px;
+  /* Afgeronde hoeken */
+  box-shadow: 0px 2px 2px rgba(255, 222, 222, 0.1);
+  /* Schaduw */
+}
+
+/* Code gekregen door ChatGPT op 15 januari 2025 */
+
+
+
+/* TOE DOE
+-  kleurcodes moeten overeen komen
+- code controleren met die ene validator */
