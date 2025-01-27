@@ -9,21 +9,14 @@
 </head>
 
 <body>
-    <!-- control streepje is opmerking -->
-
-
-            <!-- Question W: Hoe kan ik de ene afbeelding (logo) anders qua grote maken in css?-->
-
-    <!-- wisselende staat van menu aanpassen, meer spannends-->
-
 
     <header>
 
-   <a href="index.html"><img src="img/logoname.jpg" alt="Homepage"></a>
 
         <nav>
+            <a href="index.html"><img src="img/logoname.png"
+                    alt="Going to the Homepage and is the logo from Concerts of a Lifetime"></a>
             <ul>
-                <!-- flexbox ? moet ik doe hier aan toevoegen, de ul wordt de flexbox container, li wordt de items -->
                 <li><a href="index.html">Home</a></li>
                 <li><a href="concerts.html">Concerts</a></li>
                 <li><a href="personalexperience.html">Personal experience</a></li>
@@ -31,12 +24,6 @@
         </nav>
 
     </header>
-
-    <!-- Waarom zie ik mijn content niet in mijn main als de pagina online is-->
-     
-    <!-- afbeeldingen opnieuw doen enn de namen van jpg en png etc -->
-     
-    <!-- margine wel voor vormgeven nniet voor positioneren is voor flexbox toevoegen-->
 
 
 
@@ -50,50 +37,51 @@
         <p> I wish you a lot of reading pleasure and I hope you'll enjoy this just as
             much as I enjoyed experiencing the concerts and making this website! </p>
 
-            <h2> Artists </h2>
+        <h2> Artists </h2>
 
-              <!-- uitlef waarom article: ? Waarom div met container -->
 
-              <!--Dua lipa moet weg of Lany moet erbij ivm die ene pagina-->
 
-              <div class="container">
-                <img src="img/lany.jpg" alt="The band LANY">
-                <h3> LANY </h3>
-                <p>A band that I saw four times live with my sister </p>
-                <a href="index.html">Home</a>
-                <a href="lanypage.html" class="read-more">Read More</a>
-                
-                <!--Gevraagd aan ChatGPT: 'Hoe doe je bij een button doorverwijzen naar een andere pagina?'-->
- <!--geen onclick, is een link wat er in moet'-->
 
-  <!--Section moet hier en de button moet hetzelfde als bij de concerts'-->
 
-            </div>
+        <article class="container"> <!-- Article: geeft aan dat het een zelfstandig deel van de inhoud is. -->
+            <img src="img/lany.jpg" alt="The band LANY">
+            <h3> LANY </h3>
+            <p>A band that I saw four times live with my sister </p>
+            <a href="lanypage.html" class="read-more">Read More</a>
+        </article>
 
-            <div class="container">
-                <img src="img/dualipa.jpg" alt="The artist Dua Lipa">
-                <h3> Dua Lipa </h3>
-                <p>A very famous artist, but I didn't really know who she was. Although I went to her concert, it
-                    was an insane experience. </p>
-                <button>Read more</button>
-            </div>
- <!--geen div een article of section '-->
+        <!--Gevraagd aan ChatGPT: 'Hoe doe je bij een button doorverwijzen naar een andere pagina?'-->
+        <!--geen onclick, is een link wat er in moet'-->
 
-            <div class="container">
-                <img src="img/blackbear.jpg" alt="The artist Blackbear">
-                <h3>Blackbear</h3>
-                <P>He is famous for his songs like iDFC and Hot Girl Bummer, but how is he live? Is he just as good as
-                    we think he is? </P>
-                <button>Read more</button>
-                </div>
+        <!--Section moet hier en de button moet hetzelfde als bij de concerts'-->
 
-            <div class="container">
-                <img src="img/tameimpala.jpg" alt="The artist Tame Impala">
-                <h3>Tame Impala</h3>
-                <P>What is something he can't do? He writes, makes music and can sing. And what about his concerts? Did
-                    it really brought tears in my eyes? </p>
-                <button>Read more</button>
-                </div>
+        <!--Section: waarom wil ik die het liefst gebruiken?-->
+
+        </div>
+
+        <article class="container">
+            <img src="img/dualipa.jpg" alt="The artist Dua Lipa">
+            <h3> Dua Lipa </h3>
+            <p>A very famous artist, but I didn't really know who she was. Although I went to her concert, it
+                was an insane experience. </p>
+            <button>Read more</button>
+        </article>
+
+        <article class="container">
+            <img src="img/blackbear.jpg" alt="The artist Blackbear">
+            <h3>Blackbear</h3>
+            <P>He is famous for his songs like iDFC and Hot Girl Bummer, but how is he live? Is he just as good as
+                we think he is? </P>
+            <button>Read more</button>
+        </article>
+
+        <article class="container">
+            <img src="img/tameimpala.jpg" alt="The artist Tame Impala">
+            <h3>Tame Impala</h3>
+            <P>What is something he can't do? He writes, makes music and can sing. And what about his concerts? Did
+                it really brought tears in my eyes? </p>
+            <button>Read more</button>
+        </article>
 
     </main>
 
@@ -114,4 +102,3 @@
 </body>
 
 </html>
-
